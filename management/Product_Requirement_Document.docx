@@ -1,0 +1,47 @@
+Project Requirement Document: Face Detection and Recognition System
+
+Introduction
+The Face Detection and Recognition System is a software program designed to detect human faces in live video streams and compare them with known faces in a database.
+The system will be developed using Python programming language and OpenCV and dlib libraries.
+The system will be capable of running on a high-end CPU and GPU system.
+The primary objective of the system is to provide accurate face detection and recognition results in real-time.
+
+Functional Requirements
+The system should be able to capture live video streams from a webcam or any other video source.
+The system should be able to detect and recognize faces in real-time.
+The system should be able to compare the detected faces with known faces in a database.
+The system should be able to identify unknown faces and save them in a directory named "Unknown Faces".
+The system should be able to display the live video stream in a window with a size of 25% of the screen.
+The system should be able to display the name of the detected face along with the time of appearance in the video.
+The system should be able to save the known faces with their respective names and timestamps in a directory named "Known Faces".
+The system should be able to save the unknown faces with a random ID as their names in a directory named "Unknown Faces".
+The system should be able to display the top 5 matches for the unknown face if there is no match with the known faces.
+The system should be able to save the unknown faces with their respective match percentage in a directory named "Unknown Faces".
+
+Non-functional Requirements
+The system should be able to provide accurate face detection and recognition results in real-time with a minimum delay of 1 second.
+The system should be able to handle multiple faces in a video stream simultaneously.
+The system should be able to store and retrieve the faces and their respective details efficiently.
+The system should have a user-friendly interface with clear instructions and error messages.
+The system should be easy to install and run on a high-end CPU and GPU system.
+
+Development Environment
+The system will be developed using Python 3.8 or above.
+The system will use OpenCV and dlib libraries for image processing and face detection and recognition.
+The system will use Tkinter or PyQt for creating the user interface.
+The system will be developed and tested on a high-end CPU and GPU system with a minimum of 8 GB RAM and 1 TB storage.
+The system will be developed on a Windows operating system.
+
+Testing Requirements
+The system will be tested using various test cases to ensure its functionality and accuracy.
+The system will be tested for its ability to detect and recognize faces in real-time.
+The system will be tested for its ability to store and retrieve faces and their respective details efficiently.
+The system will be tested for its ability to handle multiple faces in a video stream simultaneously.
+The system will be tested for its user interface and user-friendliness.
+The system will be tested for its ability to run on a high-end CPU and GPU system with a minimum of 8 GB RAM and 1 TB storage.
+
+Deployment and Maintenance
+The system will be deployed on a high-end CPU and GPU system with a minimum of 8 GB RAM and 1 TB storage.
+The system will have an installer to simplify the deployment process.
+The system will have clear documentation and user manuals for users to refer to.
+The system will have a maintenance plan to ensure its smooth operation and continued development.
