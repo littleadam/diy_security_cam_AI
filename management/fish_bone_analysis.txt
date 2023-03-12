@@ -1,0 +1,30 @@
+Fishbone Analysis for Face Detection and Recognition Project
+
+Problem: Difficulty in developing a face detection and recognition system using Python and open-source libraries such as OpenCV and dlib.
+
+Possible Causes:
+Insufficient knowledge and expertise in using OpenCV and dlib libraries.
+Inadequate hardware specifications for real-time face detection and recognition.
+Limited availability of image datasets for training and testing the face detection and recognition algorithms.
+Difficulty in optimizing the performance of the algorithms for real-time operation.
+Lack of user-friendly interface to display the video stream with detected faces and their names.
+Difficulty in saving images of unknown faces that are not recognized in the known_faces or unknown_faces directories, along with their timestamp and percentage match.
+Incomplete documentation and lack of user manual for the system.
+
+Possible Solutions:
+Acquire more knowledge and expertise in using OpenCV and dlib libraries by studying their documentation and experimenting with sample codes.
+Use hardware with sufficient specifications for real-time face detection and recognition, such as a high-end CPU and GPU, and fast memory and storage.
+Use publicly available image datasets for training and testing the face detection and recognition algorithms, such as the Labeled Faces in the Wild (LFW) dataset and the Face Recognition Benchmark (FRB) dataset.
+Optimize the performance of the algorithms by reducing the size of the face images and using a more efficient feature extraction algorithm, such as the Histogram of Oriented Gradients (HOG).
+Develop a user-friendly interface using a GUI library such as Tkinter or PyQt, that displays the video stream with detected faces and their names in real-time.
+Implement a system for saving images of unknown faces that are not recognized in the known_faces or unknown_faces directories, along with their timestamp and percentage match, using Python's os and shutil modules.
+Document the project using a README file and create a user manual that explains the system's features and usage instructions.
+
+Evaluation Criteria:
+The face detection and recognition system should be able to accurately detect and recognize faces in a live video stream.
+The user interface should be easy to use and display the video stream with detected faces and their names in real-time.
+The system should be able to save images of unknown faces that are not recognized in the known_faces or unknown_faces directories, along with their timestamp and percentage match.
+The system's performance should be optimized for real-time operation on a variety of hardware configurations.
+The project should be well-documented and have a user manual that explains the system's features and usage instructions.
+
+Overall, by addressing these possible causes and implementing these solutions, the face detection and recognition project can be successfully developed and implemented.
