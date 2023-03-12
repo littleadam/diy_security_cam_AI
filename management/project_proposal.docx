@@ -1,0 +1,31 @@
+Project Proposal: Face Detection and Recognition
+
+Introduction:
+Facial recognition technology is becoming more and more prevalent in various applications, such as security systems, social media platforms, and virtual reality. The purpose of this project is to develop a face detection and recognition system using Python and open-source libraries such as OpenCV and dlib. The system will be able to detect faces in a live video stream, compare them to a database of known faces, and identify them if a match is found.
+
+Objectives:
+The objectives of this project are as follows:
+Develop a face detection algorithm using OpenCV and Haar cascades to detect faces in a live video stream.
+Develop a face recognition algorithm using dlib and face encodings to compare detected faces to a database of known faces.
+Create a user interface that displays the video stream with detected faces highlighted and the names of matched known faces displayed next to them.
+Implement a system for saving images of unknown faces that are not recognized in the known_faces or unknown_faces directories, along with their timestamp and percentage match.
+Optimize the face detection and recognition algorithms for real-time performance on a variety of hardware configurations.
+
+Methodology:
+The project will be implemented using the following methodology:
+Research and experimentation with OpenCV and dlib to develop the face detection and recognition algorithms.
+Develop a Python script to integrate the face detection and recognition algorithms, and display the results in a user interface.
+Implement the system for saving images of unknown faces and their match percentage.
+Optimize the performance of the algorithms and test them on different hardware configurations.
+Document the project and create a user manual for the system.
+
+Expected Outcomes:
+The expected outcomes of this project are:
+A face detection and recognition system that can accurately detect and recognize faces in a live video stream.
+A user interface that displays the video stream with detected faces highlighted and the names of matched known faces displayed next to them.
+An image database of unknown faces with their timestamp and percentage match.
+A system that can be used for security purposes or other applications where facial recognition is useful.
+Documentation and a user manual for the system.
+
+Conclusion:
+This project will develop a face detection and recognition system using open-source libraries and Python. The system will be able to accurately detect and recognize faces in a live video stream, and save images of unknown faces that are not recognized. The system will be useful for security purposes or other applications where facial recognition is needed.
