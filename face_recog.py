@@ -1,0 +1,5 @@
+# The code is an implementation of a facial recognition system that uses the OpenCV and face_recognition libraries to detect faces in a video stream or file, recognize them by comparing their facial features with a database of known faces, and save their names and timestamps to a database.
+# The code first loads the face detection and recognition models and then opens a video stream or file. For each frame in the video, the code detects any faces present and encodes their facial features using the face_recognition library. It then compares the encoded face features with a database of known faces to determine if the face is recognized or unknown.
+# If the face is recognized, the code retrieves the name associated with the face from the database and adds the current timestamp to the list of timestamps for that face in the database. If the face is unknown, the code prompts the user to suggest a name for the person and adds the new face and timestamp to the database with the suggested name.
+# The code also displays the video stream with the recognized faces labeled with their names and timestamps, and saves the video with the labeled frames to a file.
+
