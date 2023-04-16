@@ -23,7 +23,7 @@ while True:
     ret, frame = video_capture.read()
 
     # Resize frame to 50%
-    small_frame = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
+    small_frame = cv2.resize(frame, (0, 0), fx=0.3, fy=0.3)
 
     # Convert the image from BGR color (which OpenCV uses) to RGB color (which face_recognition uses)
     rgb_small_frame = small_frame[:, :, ::-1]
@@ -96,6 +96,7 @@ else:
     # If the facial image is in the database, add the current timestamp to the existing timestamps
     for i in range(len(db)):
         if face_recognition.compare_faces([db[i]['encoding']], face_encoding, tolerance=0.6)[0]:
+            name = db[i]['name']
             db[i]['timestamps'].append(timestamp)
             print("Timestamp added to existing entry in the database")
             break
